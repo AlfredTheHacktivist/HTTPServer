@@ -1,3 +1,7 @@
+"""
+Webpage example : a python script using the "sleep" function from the "time" module and delaying the webpage loading while continuing to send data.
+"""
+
 from time import sleep
 
 def request_handler(request_details):
