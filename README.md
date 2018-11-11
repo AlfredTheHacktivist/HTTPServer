@@ -56,3 +56,4 @@ request_details
 '-- string body
 |      The request body.
 ```
+As long as it implement this function, it will be processed ; but it can contains any other functions or code.
