@@ -1,6 +1,7 @@
 # HTTPServer
-A python implementation of a basic HTTP 1.1 server, with no other dependency than the Python Standard Library
-This implementation doesn't include any security feature.
+A python implementation of a basic HTTP 1.1 server, with no other dependency than the Python Standard Library.
+It serves files and process python for dynamic webpages (like PHP).
+This implementation doesn't include any security feature, it was made with compatibility in mind.
 
 ## Files
 ```HTTPServer
