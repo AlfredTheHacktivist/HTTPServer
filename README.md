@@ -16,6 +16,8 @@ The Python script creating a socket, parsing the HTTP protocol with some constan
 A webpage example showing how to parse the get parameters and return an appropriate response body.
 ### sleep.py
 A webpage example showing how to use other python modules and functions (time.sleep) and how to delay the webpage loading while continuing to send data.
+### a_friend_of_mine.png
+An example of file containing binary data that is successfully served using this server.
 
 ## Documentation
 Any webpage must implement the "request handler" function :
