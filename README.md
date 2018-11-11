@@ -3,11 +3,12 @@ A python implementation of a basic HTTP 1.1 server, with no other dependency tha
 This implementation doesn't include any security feature.
 
 ## Files
-`HTTPServer
+```HTTPServer
 |-- www
 |   '-- index.py
 |   '-- sleep.py
-'-- HTTPServer.py`
+'-- HTTPServer.py
+```
 ### HTTPServer.py
 The Python script creating a socket, parsing the HTTP protocol with some constants and executing the webpages in `www` to respond to the client.
 ### index.py
@@ -19,7 +20,8 @@ A webpage example showing how to use other python modules and functions (time.sl
 Any webpage must implement the "request handler" function :
 `request_handler(request_details)`
 request_details is a python object containing all the details and tools you might need to process the request :
-`request_details
+```
+request_details
 |-- string method
 |      The method specified in the request : GET / POST / HEAD / etc...
 |-- tuple client_address
@@ -52,4 +54,4 @@ request_details is a python object containing all the details and tools you migh
 |      The request headers.
 '-- string body
 |      The request body.
-`
+```
