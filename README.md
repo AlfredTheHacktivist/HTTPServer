@@ -12,11 +12,11 @@ This implementation doesn't include any security feature, it was made with compa
 ```
 ### HTTPServer.py
 The Python script creating a socket, parsing the HTTP protocol with some constants and executing the webpages in `www` to respond to the client.
-### index.py
+### www/index.py
 A webpage example showing how to parse the get parameters and return an appropriate response body.
-### sleep.py
+### www/sleep.py
 A webpage example showing how to use other python modules and functions (time.sleep) and how to delay the webpage loading while continuing to send data.
-### a_friend_of_mine.png
+### www/a_friend_of_mine.png
 An example of file containing binary data that is successfully served using this server.
 
 ## Documentation
